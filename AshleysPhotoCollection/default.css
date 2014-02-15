@@ -1,0 +1,167 @@
+﻿body{
+	background-color:#000000;
+	color:#FFFFFF;
+	margin:0px;
+	line-height:0px;
+}
+.header{
+	border:none;
+	left:0%;
+	position:relative;
+	width:100%;
+}
+.productThumb{
+	border:none;
+	left:0px;
+	margin:0px 0px 0px 0px;
+	position:relative;
+	top:0px;
+	width:110%;
+}
+.productInfo{
+	background-color:#000000;
+	bottom:0%;
+	display:none;
+	margin:0px 0px 0px 0px;
+	opacity:0.75;
+	position:absolute;
+	text-align:center;
+	width:100%;
+}
+.productTitle{
+	font-weight:bold;
+}
+.smallText{
+	font-size:0.7em;
+	text-decoration:underline;
+}
+.productDisplay{
+	cursor:pointer;
+	display:inline-block;
+	line-height:normal;
+	overflow:hidden;
+	padding:0px 0px 0px 0px;
+	position:relative;
+	margin:0px 0px 0px 0px;
+	top:0px;
+	width:25%;
+}
+#productDetails{
+	background-color:#000000;
+	border:3px #333333 solid;
+	border-radius:10px;
+	display:none;
+	left:30%;
+	line-height:normal;
+	opacity:1.0;
+	position:absolute;
+	text-align:center;
+	top:5%;
+	z-index:3;
+	width:40%;
+}
+#closeDetails{
+	cursor:pointer;
+	padding:5px 0px 5px 0px;
+	position:absolute;
+	right:0px;
+	top:0px;
+	text-align:right;
+	width:40%;
+}
+#viewCart{
+	cursor:pointer;
+	padding:5px 0px 5px 0px;
+	position:relative;
+	left:0px;
+	top:0px;
+	text-align:left;
+	width:40%;
+}
+.responseImage{
+	opacity:1.0;
+	position:relative;
+	top:10px;
+	width:90%;
+	z-index:3;
+}
+.responseTitle{
+	font-size:1.5em;
+	text-align:center;
+	width:100%;
+}
+#productDetails form{
+	font-size:1.1em;
+	font-weight:bold;
+	left:20%;
+	margin:10px 0px 10px 0px;
+	position:relative;
+	width:60%;
+}
+#productDetails select{
+	border-radius:7px;
+	font-weight:bold;
+	margin:5px 0px 5px 0px;
+	padding:7px;
+	text-align:center;
+}
+#productDetails input{
+	border-radius:7px;
+	font-weight:bold;
+	margin:5px 0px 5px 0px;
+	padding:7px;
+	text-align:center;
+}
+#cartResult{
+	font-size:0.8em;
+}
+
+@media screen and (max-width:950px){
+	.header{
+		border:none;
+		left:0%;
+		position:relative;
+		width:100%;
+	}
+	.productDisplay{
+		cursor:pointer;
+		display:inline-block;
+		line-height:normal;
+		overflow:hidden;
+		padding:0px 0px 0px 0px;
+		position:relative;
+		margin:0px 0px 0px 0px;
+		top:0px;
+		width:33.333333%;
+	}
+	#productDetails{
+		background-color:#000000;
+		border:none;
+		border-radius:0px;
+		display:none;
+		left:0%;
+		opacity:1.0;
+		position:absolute;
+		text-align:center;
+		top:0px;
+		z-index:3;
+		width:100%;
+	}
+	#productDetails form{
+		font-size:1.2em;
+		left:2.5%;
+		position:relative;
+		width:95%;
+	}
+	#productDetails select{
+		font-size:1.1em;
+		width:90%;
+		border-radius:7px;
+		padding:7px;
+	}
+	#productDetails input{
+		font-size:1.1em;
+		border-radius:7px;
+		padding:7px;
+	}
+}
